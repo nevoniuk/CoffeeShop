@@ -29,9 +29,19 @@ body {
 }
 
 .username_box {
-
+    margin:auto;
+    padding: 10px;
+    border: 10px;
 }
 
 .password_box {
-    
+    margin:auto;
+    padding: 10px;
+    border: 10px;
+}
+
+.login_button {
+    margin:auto;
+    padding: 10px;
+    border: 10px;
 }
