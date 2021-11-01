@@ -6,3 +6,13 @@ function show() {
       x.type = "password";
     }
   }
+
+  function saveLogin() {
+    let username = document.getElementById("username").value;
+    if (!username) {
+      alert("no username input")
+      return false
+    }
+    let password = document.getElementById("password").value;
+    alert(username + password)
+  }
