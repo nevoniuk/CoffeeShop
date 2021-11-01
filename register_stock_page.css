@@ -35,6 +35,11 @@
   text-decoration: none;
   display: block;
 }
+body{
+  font-family: Tahoma, Geneva, sans-serif;
+  background-color: #fff8e3;
+  font-size: 20px;
+}
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #ddd}
