@@ -10,10 +10,10 @@ async function main() {
     
     await client.connect();
     await newUser(client, {
-        username: "oldUser",
+        username: "other",
         password: "passw0rd",
-        email: "olduser@gmail.com",
-        name: "Old User",
+        email: "other@gmail.com",
+        name: "other User",
         type: "Customer"
     });
 
